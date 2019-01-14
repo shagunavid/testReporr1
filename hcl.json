@@ -31,7 +31,7 @@
         }
     },
     "resource": {
-        "aws_cloudtrail": {
+        "aws_cloudtrail1": {
             "example": {
                 "cloud_watch_logs_group_arn": "aws:arn::logGroup:someLogGroup1:",
                 "event_selector": {
