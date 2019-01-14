@@ -33,7 +33,7 @@
     "resource": {
         "aws_cloudtrail": {
             "example": {
-                "cloud_watch_logs_group_arn": "aws:arn::logGroup:someLogGroup:",
+                "cloud_watch_logs_group_arn": "aws:arn::logGroup:someLogGroup1:",
                 "event_selector": {
                     "data_resource": {
                         "type": "AWS::Lambda::Function",
