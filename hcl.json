@@ -46,6 +46,7 @@
                 },
                 "is_multi_region_trail": false
             }
+			
         },
         "aws_cloudwatch_log_metric_filter": {
             "AuthorizeSecurityGroupIngress": {
