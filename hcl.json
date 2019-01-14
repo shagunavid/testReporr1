@@ -44,7 +44,7 @@
                     "include_management_events": true,
                     "read_write_type": "All"
                 },
-                "is_multi_region_trail": false
+                "is_multi_region_trail": true
             }
 			
         },
