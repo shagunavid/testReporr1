@@ -183,7 +183,7 @@ resource "aws_redshift_cluster" "default" {
 
 resource "aws_iam_account_password_policy" "strict" {
   minimum_password_length        = 16
-  require_lowercase_characters   = true
+  require_lowercase_characters   = false
   require_numbers                = true
   require_uppercase_characters   = true
   require_symbols                = true
