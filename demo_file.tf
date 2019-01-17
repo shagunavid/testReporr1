@@ -39,7 +39,7 @@ resource "aws_lb" "test" {
   access_logs {
     bucket  = "${aws_s3_bucket.lb_logs.bucket}"
     prefix  = "test-lb"
-    enabled = true
+    enabled = false
   }
 
   tags {
